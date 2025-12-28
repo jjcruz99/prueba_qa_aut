@@ -8,7 +8,7 @@ describe('Prueba de la API reqres.in/api/ (Flujo Completo)', () => {
 
     const headers = {
         // Añadimos el header de la documentación:
-        'x-api-key': 'dev_2551a7cca1a0e86bef88f4480581b7e81768470e95aaaf79', 
+        'x-api-key': 'dev_2551...', //Digitar la llave correcta
         'Content-Type': 'application/json' // Especifica el tipo de cuerpo para el POST
     };
 

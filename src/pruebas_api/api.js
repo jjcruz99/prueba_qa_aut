@@ -7,7 +7,8 @@
 export async function obtenerColeccion(){
     try{
         const response = await fetch('https://reqres.in/api/collections/collection-1', {
-        headers: { 'x-api-key': 'dev_2551a7cca1a0e86bef88f4480581b7e81768470e95aaaf79' },
+        headers: { 'x-api-key': 'dev_2551a7' //Ingresar la llave correcta 
+        },
         });
 
         if (response.status !== 200) {
@@ -26,7 +27,7 @@ export async function obtenerColeccion(){
 export async function obtenerRecordsPorId(){
     try{
         const response = await fetch('https://reqres.in/api/collections/collection-1/records/82d60b7d-c029-470e-9dae-a4cdea14dae0', {
-    headers: { 'x-api-key': 'dev_pub_a145e1fae115de05afc1dc61454e15f0' },
+    headers: { 'x-api-key': 'dev_pub_a145' },//Ingresar la llave correcta
     });
     const respuestaEnFormatoJSON = await response.json();
     console.log(respuestaEnFormatoJSON);
@@ -49,7 +50,7 @@ export async function crearUsuario(){
             method: 'POST',
             headers: {  
                 'Content-Type': 'application/json',
-                'x-api-key': 'dev_2551a7cca1a0e86bef88f4480581b7e81768470e95aaaf79'
+                'x-api-key': 'dev_2551a'//Ingresar la llave correcta
             },
             body: JSON.stringify(usuario)
         });
