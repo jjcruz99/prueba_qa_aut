@@ -2,6 +2,7 @@
   "name": "markers_prueba",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
